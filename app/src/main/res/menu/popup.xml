@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:title="면류/찌개/김밥">
+        <menu>
+            <item
+                android:title="라면" />
+            <item
+                android:title="떡라면" />
+            <item
+                android:title="치즈라면" />
+            <item
+                android:title="계란라면" />
+            <item
+                android:title="물냉면" />
+            <item
+                android:title="비빔냉면" />
+            <item
+                android:title="육쌈물냉면" />
+            <item
+                android:title="육쌈비빔냉면" />
+            <item
+                android:title="냉모밀" />
+            <item
+                android:title="에비냉모밀" />
+            <item
+                android:title="돈까스냉모밀정식" />
+            <item
+                android:title="돈육순두부찌개" />
+            <item
+                android:title="우삼겹된장찌개" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:title="덮밥류/비빔밥" >
+    <menu>
+        <item
+            android:title="소금구이덮밥" />
+        <item
+            android:title="그제덮밥" />
+        <item
+            android:title="돈까스카레동" />
+        <item
+            android:title="에비카레동" />
+        <item
+            android:title="함박카레동" />
+        <item
+            android:title="치킨텐더카레동" />
+        <item
+            android:title="새우튀김알밥" />
+        <item
+            android:title="치킨가라아게동" />
+        <item
+            android:title="참치마요비빔밥" />
+        <item
+            android:title="매콤참치마요비빔밥" />
+        <item
+            android:title="삼겹살강된장비빔밥" />
+
+    </menu>
+    </item>
+
+    <item
+        android:id="@+id/item3"
+        android:title="볶음밥/오므라이스/돈까스" >
+    <menu>
+        <item
+            android:title="볶음밥" />
+        <item
+            android:title="오므라이스" />
+        <item
+            android:title="등심돈까스" />
+        <item
+            android:title="피자돈까스" />
+        <item
+            android:title="소떡소떡" />
+    </menu>
+    </item>
+</menu>

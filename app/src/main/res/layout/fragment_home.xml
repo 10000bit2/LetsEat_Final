@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/faculties"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="교직원 식당 메뉴"
+        android:textColor="@color/blackcherry"
+
+         />
+    <TextView
+        android:id="@+id/facultiesMenu"
+        android:layout_width="335dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:text="TextView"
+         />
+    <TextView
+        android:id="@+id/students"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="140dp"
+        android:textColor="@color/blackcherry"
+        android:text="학생식당 메뉴"
+
+        />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="403dp"
+        android:layout_height="361dp"
+        android:layout_marginTop="180dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</FrameLayout>

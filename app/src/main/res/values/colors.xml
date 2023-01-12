@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="lavender">#6B82A8</color>
+    <color name="linen">#D1D3CF</color>
+    <color name="raisin">#757081</color>
+    <color name="grape">#6C4F70</color>
+    <color name="blackcherry">#39324B</color>
+    <color name="lightcolor">#D9BBB4</color>
+    <color name="darkcolor">#40031f</color>
+    <color name="pinkcolor">#A6467A</color>
+    <!--
+    <color name="navigation_color_recom">#6B82A8</color>
+    <color name="navigation_color_suggest">#6B82A8</color>
+    <color name="navigation_color_notif">#6B82A8</color>
+    <color name="navigation_color_review">#6B82A8</color>
+    <color name="navigation_color_info">#6B82A8</color>
+    -->
+</resources>

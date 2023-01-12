@@ -1,0 +1,2 @@
+rootProject.name='lets_eat'
+include ':app'

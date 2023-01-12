@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecommendationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/recommendMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="추천 메뉴"/>
+        <EditText
+            android:id="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:ems="10"
+            android:hint="메뉴검색"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/jalnan"
+            android:inputType="textPersonName"/>
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="86dp"
+            android:layout_height="44dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/buttonshape3"
+            android:text="검색"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="492dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="30dp" />
+    </LinearLayout>
+</FrameLayout>
